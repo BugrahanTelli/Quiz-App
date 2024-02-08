@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Quiz App</h1>
+            <p class="scorep">Puan: <span class="score">0</span></p>
+        </div>
+        <div class="body">
+            <div class="question"><p class="questionText">araban kaç para</p></div>
+            <div class="answers">
+                <ul class="listans">
+                    <li class="answer a"><input name="answer" type="radio" id="answer1"><label for="answer1">selam</label></li>
+                    <li class="answer b"><input name="answer" type="radio" id="answer2"><label for="answer2">selam</label></li>
+                    <li class="answer c"><input name="answer" type="radio" id="answer3"><label for="answer3">selam</label></li>
+                    <li class="answer d"><input name="answer" type="radio" id="answer4"><label for="answer4">selam</label></li>
+                </ul>
+            </div>
+            <div class="buttons">
+                <button class="submit">Gönder</button>
+                <button class="reset">Reset</button>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="previous"><button id="prev"><</button><label for="prev">Önceki Soru</label></div>
+            <div class="next"><label for="next">Sonraki Soru</label><button id="next">></button></div>
+        </div>
+    </div>
+            
+
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
