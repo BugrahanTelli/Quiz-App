@@ -31,6 +31,9 @@ function checkAnswer() {
             score++;
             goToNextQuestion()
         }
+        else{
+            goToNextQuestion()
+        }
     }
 }
 
